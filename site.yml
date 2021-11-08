@@ -1,2 +1,3 @@
 ---
-include: playbooks/dns.yml
+- name: Install Bind
+  import_playbook: playbooks/dns.yml
