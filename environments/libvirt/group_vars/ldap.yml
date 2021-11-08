@@ -1,0 +1,8 @@
+---
+ldap:
+  server:
+    base_dn: 'o=stoeps,c=local'
+    bind_pw: 'password'
+    bind_pw_encr: '{SSHA}unh9XJaRtrBDa1+EyJ3eCznGosp03foR'
+    user_file: 'user-ldap-1k'
+
